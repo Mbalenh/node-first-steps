@@ -1,38 +1,25 @@
 {
-  "name": "",
+  "name": "first-steps",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "greet.js",
   "type": "module",
-  "license": "AGPL-version-3.0",
-  "private": false,
-  "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 6.0.0"
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "figlet": "^1.5.2"
   },
-  "homepage": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Mbalenh/node-first-steps.git"
   },
-  "bugs": "",
   "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mbalenh/node-first-steps/issues"
   },
-  "contributors": [
-
-  ],
-  "scripts": {
-    "dev": "",
-    "test": ""
-  },
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  }
+  "homepage": "https://github.com/Mbalenh/node-first-steps#readme"
 }

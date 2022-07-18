@@ -1,4 +1,3 @@
-module.exports = function(name){
+export default function greet(name){
   return "hello " + name;
 }
-
